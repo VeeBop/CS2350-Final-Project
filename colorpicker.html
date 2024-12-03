@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Final Project: Color Picker</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/colorpicker.js" defer></script>
+  </head>
+  <body>
+    <header><h1>Color Picker</h1></header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="colorpicker.html">Color Picker</a></li>
+        <li><a href="waterfall.html">Waterfall</a></li>
+        <li><a href="reaction.html">Reaction Time Test</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="centered">
+        <form>
+          <div id="redDiv">
+            <label for="red">Red:</label>
+            <input
+              type="range"
+              min="0"
+              max="255"
+              value="128"
+              name="red"
+              id="redSlider"
+            />
+            <p id="redNumber" class="sliderNumber">128</p>
+          </div>
+          <br />
+
+          <div id="greenDiv">
+            <label for="green">Green:</label>
+            <input
+              type="range"
+              min="0"
+              max="255"
+              value="128"
+              name="green"
+              id="greenSlider"
+            />
+            <p id="greenNumber" class="sliderNumber">128</p>
+          </div>
+          <br />
+
+          <div id="blueDiv">
+            <label for="blue">Blue:</label>
+            <input
+              type="range"
+              min="0"
+              max="255"
+              value="128"
+              name="blue"
+              id="blueSlider"
+            />
+            <p id="blueNumber" class="sliderNumber">128</p>
+          </div>
+          <br />
+        </form>
+
+        <p class="sliderNumber" id="hexColor">#808080</p>
+
+        <canvas id="pickedColor"></canvas>
+      </div>
+    </main>
+  </body>
+</html>

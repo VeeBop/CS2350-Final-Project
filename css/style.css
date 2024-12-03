@@ -85,9 +85,25 @@ nav {
   }
 }
 
+.sliderNumber {
+  display: inline;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #desc-flex {
   display: flex;
   flex-direction: row;
+}
+
+#pickedColor {
+  display: block;
+  width: 25%;
+  height: 25%;
 }
 
 /* Mobile layout */
