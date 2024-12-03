@@ -66,8 +66,7 @@ function update() {
   }
 
   // Overwrite canvas
-  // ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "#000000";
+  ctx.fillStyle = "#252623";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   // Animate all droplets
