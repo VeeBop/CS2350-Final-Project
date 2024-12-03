@@ -1,5 +1,5 @@
-var canvas = document.getElementById("pickedColor");
-var ctx = canvas.getContext("2d");
+const canvas = document.getElementById("pickedColor");
+const ctx = canvas.getContext("2d");
 
 function updateColor() {
   redHex = parseInt(document.getElementById("redSlider").value)
