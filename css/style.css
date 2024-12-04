@@ -55,6 +55,14 @@ nav {
   }
 }
 
+.current-page {
+  background-color: #84b66b;
+  a {
+    color: #373b34;
+    font-weight: bold;
+  }
+}
+
 .js-desc {
   border: medium #84b66b solid;
   border-radius: 5px;
